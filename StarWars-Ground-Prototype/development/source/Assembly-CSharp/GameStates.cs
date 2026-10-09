@@ -1,0 +1,8 @@
+public enum GameStates
+{
+	NOT_SETUP,
+	ONGOING,
+	TURN_LIMIT_REACHED,
+	VICTORY,
+	DEFEAT
+}

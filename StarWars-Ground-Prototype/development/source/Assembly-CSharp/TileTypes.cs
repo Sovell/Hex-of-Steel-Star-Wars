@@ -1,0 +1,18 @@
+public enum TileTypes
+{
+	NONE,
+	SEA,
+	RIVER,
+	PLAIN,
+	ROAD,
+	MARSH,
+	MOUNTAIN,
+	HILL,
+	FOREST,
+	CITY,
+	HARBOUR,
+	AIRPORT,
+	FACTORY,
+	REFINERY,
+	TRENCH
+}

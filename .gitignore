@@ -1,0 +1,28 @@
+# Local game installation, player data and binary dependencies
+/StarWars-Ground-Prototype/Game/
+/StarWars-Ground-Prototype/Profile/
+/StarWars-Ground-Prototype/Logs/
+/StarWars-Ground-Prototype/development/references/
+/StarWars-Ground-Prototype/development/verification/
+/StarWars-Ground-Prototype/development/logs/
+/HexOfSteel-Recovered/references/
+/HexOfSteel-Recovered/verification/
+/HexOfSteel-Recovered/logs/
+/HexOfSteel-Recovered/tools/
+
+# Generated build output and machine-local files
+**/bin/
+**/obj/
+**/.vs/
+*.dll
+*.exe
+*.pdb
+*.rsp
+*.sav
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+Desktop.ini
+.env
+.env.*

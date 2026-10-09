@@ -1,0 +1,400 @@
+using System.Collections.Generic;
+
+public class GroundHeroes
+{
+	public static List<string> GetHeroes(string p_country)
+	{
+		List<string> list = new List<string>();
+		switch (p_country)
+		{
+		case "Australia":
+			list.Add("Lachlan Williams");
+			list.Add("Connor Patel");
+			list.Add("Nathan Wong");
+			list.Add("Cooper Lee");
+			list.Add("Oscar Singh");
+			list.Add("Ethan Li");
+			list.Add("Maxwell Nguyen");
+			list.Add("Joshua Brown");
+			list.Add("Caleb Taylor");
+			list.Add("Blake Mitchell");
+			break;
+		case "Belgium":
+			list.Add("Lucas Van Damme");
+			list.Add("Simon De Smet");
+			list.Add("Thierry Dubois");
+			list.Add("Maxime Laurent");
+			list.Add("Julien Dupont");
+			list.Add("Nathan Willems");
+			list.Add("Victor Martens");
+			list.Add("Matteo Reynaerts");
+			list.Add("Felix Claes");
+			list.Add("Gabriel Lemmens");
+			break;
+		case "Bulgaria":
+			list.Add("Nikolay Petrov");
+			list.Add("Ivan Ivanov");
+			list.Add("Georgi Dimitrov");
+			list.Add("Stoyan Kolev");
+			list.Add("Dimitar Georgiev");
+			list.Add("Petar Angelov");
+			list.Add("Vladimir Marinov");
+			list.Add("Hristo Petrov");
+			list.Add("Aleksandar Stefanov");
+			list.Add("Martin Popov");
+			break;
+		case "Canada":
+			list.Add("Nolan Anderson");
+			list.Add("Evan Mitchell");
+			list.Add("Liam MacDonald");
+			list.Add("Owen Fraser");
+			list.Add("Carter Sullivan");
+			list.Add("Tyler Tremblay");
+			list.Add("Gavin Leblanc");
+			list.Add("Blake Robillard");
+			list.Add("Tristan Gagnon");
+			list.Add("Xavier Moreau");
+			break;
+		case "Croatia":
+			list.Add("Mateo Kovačić");
+			list.Add("Luka Modrić");
+			list.Add("Ivan Perišić");
+			list.Add("Marko Jurić");
+			list.Add("Filip Novak");
+			list.Add("Stjepan Vuković");
+			list.Add("Josip Matić");
+			list.Add("Ante Šimić");
+			list.Add("Davor Kovačević");
+			list.Add("Marin Tomić");
+			break;
+		case "China":
+			list.Add("Yi Chen");
+			list.Add("Wei Liu");
+			list.Add("Jun Wang");
+			list.Add("Lei Zhang");
+			list.Add("Xiao Li");
+			list.Add("Ming Huang");
+			list.Add("Tao Lin");
+			list.Add("Cheng Wu");
+			list.Add("Yuan Zhao");
+			list.Add("Jian Guo");
+			break;
+		case "Denmark":
+			list.Add("Anders Nielsen");
+			list.Add("Mads Jensen");
+			list.Add("Lars Pedersen");
+			list.Add("Christian Andersen");
+			list.Add("Søren Larsen");
+			list.Add("Jesper Kristensen");
+			list.Add("Thomas Rasmussen");
+			list.Add("Henrik Olesen");
+			list.Add("Nikolaj Poulsen");
+			list.Add("Frederik Hansen");
+			break;
+		case "Finland":
+			list.Add("Eero Virtanen");
+			list.Add("Antti Koskinen");
+			list.Add("Jani Järvinen");
+			list.Add("Mikko Nieminen");
+			list.Add("Timo Lahtinen");
+			list.Add("Juha Laine");
+			list.Add("Marko Rantanen");
+			list.Add("Pasi Huhtala");
+			list.Add("Tapani Karjalainen");
+			list.Add("Ari Mäkinen");
+			break;
+		case "France":
+			list.Add("Rémi Dubois");
+			list.Add("Antoine Leroy");
+			list.Add("Lucas Martin");
+			list.Add("Théo Lefebvre");
+			list.Add("Gabriel Dupont");
+			list.Add("Hugo Laurent");
+			list.Add("Matteo Girard");
+			list.Add("Enzo Moreau");
+			list.Add("Nathan Rousseau");
+			list.Add("Louis Bonnet");
+			break;
+		case "Greece":
+			list.Add("Nikos Papadopoulos");
+			list.Add("Dimitris Georgiou");
+			list.Add("Yiannis Antoniou");
+			list.Add("Kostas Ioannou");
+			list.Add("Panos Konstantinidis");
+			list.Add("Giorgos Papadakis");
+			list.Add("Vasilis Karagiannis");
+			list.Add("Thanasis Katsaros");
+			list.Add("Marios Tsakalidis");
+			list.Add("Takis Christopoulos");
+			break;
+		case "Great Britain":
+			list.Add("John Edmondson");
+			list.Add("Lionel Queripel");
+			list.Add("Peter Wright");
+			list.Add("William Sidney");
+			list.Add("Augustus Newman");
+			list.Add("Jack Thompson");
+			list.Add("Harry Patel");
+			list.Add("Oliver Williams");
+			list.Add("Charlie Hughes");
+			list.Add("George Robinson");
+			list.Add("William Green");
+			list.Add("Thomas Wright");
+			list.Add("James Mitchell");
+			list.Add("Daniel Cook");
+			break;
+		case "Hungary":
+			list.Add("Ádám Varga");
+			list.Add("Bence Kovács");
+			list.Add("Csaba Tóth");
+			list.Add("Dávid Nagy");
+			list.Add("Endre Szabó");
+			list.Add("Ferenc Kiss");
+			list.Add("Gábor Farkas");
+			list.Add("Hunor Horváth");
+			list.Add("István Papp");
+			list.Add("János Molnár");
+			break;
+		case "Italy":
+			list.Add("Giovanni Ricci");
+			list.Add("Marco De Luca");
+			list.Add("Luca Ferrari");
+			list.Add("Antonio Romano");
+			list.Add("Francesco Moretti");
+			list.Add("Alessandro Conti");
+			list.Add("Matteo Barbieri");
+			list.Add("Giuseppe Russo");
+			list.Add("Lorenzo Bianchi");
+			list.Add("Davide Martini");
+			break;
+		case "Japan":
+			list.Add("Hatazo Adachi");
+			list.Add("Shoichi Yokoi");
+			list.Add("Masanobu Tsuji");
+			list.Add("Hayao Tada ");
+			list.Add("Hisaichi Terauchi");
+			list.Add("Kaito Takahashi");
+			list.Add("Haruki Nakamura");
+			list.Add("Ryota Tanaka");
+			list.Add("Renjiro Suzuki");
+			list.Add("Hiroto Yamamoto");
+			list.Add("Kenjiro Sato");
+			list.Add("Daichi Watanabe");
+			list.Add("Yuto Kobayashi");
+			list.Add("Tatsuya Ito");
+			list.Add("Shohei Inoue");
+			break;
+		case "Nazi Germany":
+			list.Add("Adolf Abel");
+			list.Add("Arnulf Abele");
+			list.Add("Ernst von Leyser");
+			list.Add("Erwin Vierow");
+			list.Add("Rudolf Veiel");
+			list.Add("Friedrich Anding");
+			list.Add("Fritz Amling");
+			list.Add("Georg Audenrieth");
+			list.Add("Hinrich Ahrens");
+			list.Add("Georg Lindemann");
+			list.Add("Georg Einhoff");
+			list.Add("Gustav Altman");
+			list.Add("Gustav Alvermann");
+			list.Add("Johannes Austermann");
+			list.Add("Josef Ehinger");
+			list.Add("Rudolf Albust");
+			list.Add("Rudolf Altstadt");
+			list.Add("Siegfried Amerkamp");
+			list.Add("Walter Eggers");
+			list.Add("Hannibal von Lüttichau");
+			list.Add("Wilhelm Ahrens");
+			list.Add("Matthias Wagner");
+			list.Add("Lukas Becker");
+			list.Add("Jonas Müller");
+			list.Add("Felix Schmidt");
+			list.Add("Niklas Schneider");
+			list.Add("Julian Fischer");
+			list.Add("Leonard Richter");
+			list.Add("Fabian Weber");
+			list.Add("Benjamin Schäfer");
+			list.Add("Maximilian Schwarz");
+			break;
+		case "Norway":
+			list.Add("Erik Johansen");
+			list.Add("Andreas Olsen");
+			list.Add("Nikolai Larsen");
+			list.Add("Henrik Andersen");
+			list.Add("Ole Kristiansen");
+			list.Add("Mathias Pedersen");
+			list.Add("Sander Nilsen");
+			list.Add("Jonas Berg");
+			list.Add("Martin Solberg");
+			list.Add("Viktor Haugen");
+			break;
+		case "New Zealand":
+			list.Add("Oscar Bennett");
+			list.Add("Eliot Patel");
+			list.Add("Cameron White");
+			list.Add("Harper Johnston");
+			list.Add("Finnley Singh");
+			list.Add("Archie Thomson");
+			list.Add("Jaxon Walker");
+			list.Add("Blake Hughes");
+			list.Add("Lincoln Palmer");
+			list.Add("Ryder Taylor");
+			break;
+		case "Netherlands":
+			list.Add("Bram Jansen");
+			list.Add("Thijs van der Meer");
+			list.Add("Lucas de Vries");
+			list.Add("Finn Bakker");
+			list.Add("Daan Visser");
+			list.Add("Noah van Dijk");
+			list.Add("Sem Hendriks");
+			list.Add("Luuk Kuijpers");
+			list.Add("Gijs van den Bosch");
+			list.Add("Tijn Schouten");
+			break;
+		case "Poland":
+			list.Add("Kamil Nowak");
+			list.Add("Michał Kowalski");
+			list.Add("Piotr Wiśniewski");
+			list.Add("Tomasz Dąbrowski");
+			list.Add("Mateusz Lewandowski");
+			list.Add("Adam Woźniak");
+			list.Add("Bartosz Kamiński");
+			list.Add("Damian Kozłowski");
+			list.Add("Karol Jankowski");
+			list.Add("Marek Wojciechowski");
+			break;
+		case "Portugal":
+			list.Add("Tiago Fernandes");
+			list.Add("Gonçalo Martins");
+			list.Add("Pedro Costa");
+			list.Add("Hugo Pereira");
+			list.Add("Miguel Oliveira");
+			list.Add("Rui Silva");
+			list.Add("João Rodrigues");
+			list.Add("Daniel Almeida");
+			list.Add("Luís Santos");
+			list.Add("André Carvalho");
+			break;
+		case "Romania":
+			list.Add("Radu Popescu");
+			list.Add("Marius Ionescu");
+			list.Add("Alexandru Marinescu");
+			list.Add("Cristian Stanescu");
+			list.Add("Adrian Dumitrescu");
+			list.Add("Gabriel Stoica");
+			list.Add("Costin Neagu");
+			list.Add("Florin Gheorghiu");
+			list.Add("Sorin Andreescu");
+			list.Add("Dan Moldovan");
+			break;
+		case "Soviet Union":
+			list.Add("Ivan Sereda");
+			list.Add("Lyudmila Pavlichenko");
+			list.Add("Zinoviy Kolobanov");
+			list.Add("Semen Nomokonov");
+			list.Add("Vladimir Petrov");
+			list.Add("Dmitri Ivanov");
+			list.Add("Sergei Popov");
+			list.Add("Nikolai Kuznetsov");
+			list.Add("Alexei Sokolov");
+			list.Add("Mikhail Romanov");
+			list.Add("Andrei Volkov");
+			list.Add("Igor Smirnov");
+			list.Add("Yuri Fedorov");
+			list.Add("Anatoly Voronin");
+			break;
+		case "Spain":
+			list.Add("Diego Sánchez");
+			list.Add("Javier Martínez");
+			list.Add("Pablo Rodríguez");
+			list.Add("Carlos López");
+			list.Add("Juan García");
+			list.Add("Miguel Fernández");
+			list.Add("Alejandro Gómez");
+			list.Add("José Pérez");
+			list.Add("Daniel Díaz");
+			list.Add("Adrián Ruiz");
+			list.Add("David Hernández");
+			list.Add("Sergio Moreno");
+			list.Add("Álvaro Jiménez");
+			list.Add("Fernando Castro");
+			list.Add("Rubén Morales");
+			break;
+		case "Spanish Republic":
+			list.Add("Diego López");
+			list.Add("Santiago Morales");
+			list.Add("Hector Vargas");
+			list.Add("Pablo Ruiz");
+			list.Add("Daniel Fernandez");
+			list.Add("Adrián Ramos");
+			list.Add("Javier Moreno");
+			list.Add("Mario Jimenez");
+			list.Add("Rubén Alonso");
+			list.Add("Sergio Medina");
+			break;
+		case "Sweden":
+			list.Add("Erik Lundqvist");
+			list.Add("Oskar Nilsson");
+			list.Add("Lars Andersson");
+			list.Add("Johan Svensson");
+			list.Add("Gustav Johansson");
+			list.Add("Nils Karlsson");
+			list.Add("Axel Gustafsson");
+			list.Add("Emil Lindberg");
+			list.Add("Simon Berggren");
+			list.Add("Felix Öberg");
+			break;
+		case "Slovakia":
+			list.Add("Adam Novák");
+			list.Add("Matúš Kováč");
+			list.Add("Peter Varga");
+			list.Add("Michal Horváth");
+			list.Add("Tomáš Urban");
+			list.Add("Lukáš Tomčo");
+			list.Add("Martin Gregor");
+			list.Add("Marek Šimko");
+			list.Add("Ján Fabian");
+			list.Add("Štefan Kratochvíl");
+			break;
+		case "Turkey":
+			list.Add("Eren Çelik");
+			list.Add("Kaan Yılmaz");
+			list.Add("Barış Demir");
+			list.Add("Can Arslan");
+			list.Add("Emir Öztürk");
+			list.Add("Onur Kaya");
+			list.Add("Mert Aksoy");
+			list.Add("Deniz Aydın");
+			list.Add("Tolga Kocaman");
+			list.Add("Burak Şahin");
+			break;
+		case "USA":
+			list.Add("Adrian Rivera");
+			list.Add("Brandon Martinez");
+			list.Add("Derek Sullivan");
+			list.Add("Nathaniel Barnes");
+			list.Add("Connor Edwards");
+			list.Add("Gavin Patterson");
+			list.Add("Austin Mitchell");
+			list.Add("Tristan Nguyen");
+			list.Add("Hunter Robinson");
+			list.Add("Dylan Gray");
+			break;
+		case "Yugoslavia":
+			list.Add("Bojan Petrović");
+			list.Add("Luka Jovanović");
+			list.Add("Nikola Stojanović");
+			list.Add("Marko Tomić");
+			list.Add("Stefan Đorđević");
+			list.Add("Ivan Milenković");
+			list.Add("Filip Nikolić");
+			list.Add("Miloš Ilić");
+			list.Add("Dimitrije Marković");
+			list.Add("Vladimir Pavlović");
+			break;
+		}
+		return list;
+	}
+}

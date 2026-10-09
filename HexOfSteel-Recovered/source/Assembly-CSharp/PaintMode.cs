@@ -1,0 +1,7 @@
+public enum PaintMode
+{
+	TILE_PLACING,
+	CAN_FREEZE,
+	CAN_SEASON_CHANGE,
+	UNIT_REMOVAL
+}

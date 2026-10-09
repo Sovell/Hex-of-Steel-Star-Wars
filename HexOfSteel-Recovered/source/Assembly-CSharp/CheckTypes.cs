@@ -1,0 +1,12 @@
+public enum CheckTypes
+{
+	NONE = 0,
+	TURN_COUNT = 1,
+	DATE = 2,
+	VP_LOSS = 3,
+	VPS_LOSSES = 4,
+	VPS_LOSSES_ONE_OF = 7,
+	WAR_DECLARATION = 5,
+	ALLIANCE_MADE = 6,
+	UNIT_DESTROYED = 8
+}

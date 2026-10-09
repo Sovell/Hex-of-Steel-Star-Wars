@@ -1,0 +1,25 @@
+public enum GameLanguages
+{
+	EN,
+	FR,
+	DE,
+	RU,
+	ES,
+	IT,
+	PL,
+	PT,
+	CZ,
+	CNS,
+	CNT,
+	TR,
+	FI,
+	JP,
+	SE,
+	KR,
+	GR,
+	NL,
+	NO,
+	CA,
+	BR,
+	UA
+}
